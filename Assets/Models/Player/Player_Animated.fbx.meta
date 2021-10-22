@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 99ad69f2fd71ecc4e9c4a7b5d7f36ba9
 ModelImporter:
-  serializedVersion: 25
+  serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: 5888168894251625656
@@ -59,7 +59,7 @@ ModelImporter:
     second: metarig|Player_Walk_Shotgun
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -72,32 +72,7 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'metarig|Player_AK47_Shot' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation DOF
-      on avatar to improve retargeting quality.\n\t'palm.01.L' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\nClip 'metarig|Player_Run_AK47'
-      has import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'shoulder.L' has
-      translation animation that will be discarded.\n\t'shoulder.R' has translation
-      animation that will be discarded.\n\nClip 'metarig|Player_Run_Machete' has import
-      animation warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'palm.01.L' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'palm.02.L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm.03.L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm.04.L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm.01.R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm.02.R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm.03.R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm.04.R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'metarig|Player_Run_Shotgun' has import animation warnings that might lower
-      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
-      quality.\n\t'shoulder.L' has translation animation that will be discarded.\n\t'shoulder.R'
-      has translation animation that will be discarded.\n\nClip 'metarig|Player_Shotgun_Shot'
-      has import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'upper_arm.L' has
-      translation animation that will be discarded.\n\t'upper_arm.R' has translation
-      animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -123,7 +98,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -639,10 +614,12 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -669,7 +646,6 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -1147,8 +1123,10 @@ ModelImporter:
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
